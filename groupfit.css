@@ -10,9 +10,11 @@
 
 header {
     text-align: center;
-    border-bottom: 2px solid var(--primary);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 nav ul {
