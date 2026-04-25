@@ -10,6 +10,9 @@
 
 header {
     text-align: center;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 nav ul {
