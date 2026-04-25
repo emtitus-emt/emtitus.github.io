@@ -134,6 +134,13 @@ h1 {
     line-height: 1.2;
 }
 
+.instructor-bio {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+
 .cycle {
     background-color: #e8f5e8;
     border-left: 5px solid var(--primary);
