@@ -87,8 +87,16 @@ a:visited {
     display: block;
     width: 38% !important;
     max-width: 420px !important;
-    min-width: auto !important;
+    min-width: 0 !important;
     margin: 0 1rem 1rem 0 !important;
+    box-sizing: border-box !important;
+}
+
+.instagram-embed,
+.instagram-embed * {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
 }
 
 .instagram-embed iframe,
