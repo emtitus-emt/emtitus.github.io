@@ -68,6 +68,28 @@ a:visited {
     object-fit: contain;
 }
 
+.video-embed {
+    float: right;
+    width: 38%;
+    max-width: 420px;
+    margin: 0 0 1rem 1rem;
+}
+
+.video-embed iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .video-embed {
+        float: none;
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+}
+
 footer {
     display: flex;
     justify-content: space-around;
