@@ -85,8 +85,8 @@ a:visited {
 
 .instagram-embed-wrapper {
     float: left;
-    width: 38%;
-    max-width: 420px;
+    width: 32%;
+    max-width: 360px;
     min-width: 0;
     margin: 0 1rem 1rem 0;
     box-sizing: border-box;
@@ -100,6 +100,12 @@ a:visited {
     min-width: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
+}
+
+.instagram-embed-wrapper blockquote.instagram-media {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 
 .instagram-embed,
